@@ -73,6 +73,12 @@ input[type=number] {
     background-image: url(../images/issues-banner.png);
 }
 
+@media (min-width: 1400px) {
+    .header {
+        background-position: right 18%;
+    }
+}
+
 .hero-heading-1 {
     color: #fff;
     font-size: 5.75rem;
@@ -454,7 +460,7 @@ body {
 }
 
 .side-navbar {
-    width: 250px;
+    width: 280px;
     height: 100%;
     position: fixed;
     background-color: #DB2422;
@@ -472,8 +478,8 @@ body {
 }
 
 .body-wrapper {
-    width: calc(100% - 250px);
-    margin-left: 250px;
+    width: calc(100% - 280px);
+    margin-left: 280px;
 }
 
 .donate-button-hover {
